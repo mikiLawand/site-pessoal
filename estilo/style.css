@@ -1,0 +1,27 @@
+@charset "+UTF-8";
+
+/*importando fontes do google*/
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400&family=Chicle&display=swap');
+
+/*configurações reset*/
+*{
+   margin: 0px; 
+   padding: 0px;
+}
+
+/*configurações de tema e estilo*/
+:root{
+    --branco-creme: #FEEFEA;
+    --rosa-escuro: #F2508B;
+    --rosa-claro: #F2C2D8;
+    --roxo: #5061BF;
+    --azul-escuro: #3C4973;
+}
+
+body{
+    background-color: rgb(233, 169, 169);
+}
+
+main{
+    background-color: beige;
+}
