@@ -19,9 +19,29 @@
 }
 
 body{
-    background-color: rgb(233, 169, 169);
+    background-color: white;
 }
 
 main{
-    background-color: beige;
+    background-color: var(--branco-creme);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+/*conf dos links dentro da barra de menu*/
+nav > a{
+    background-color: var(--roxo);
+    border-radius: 100%;
+    padding: 8px;
+    margin: auto;
+    text-decoration: none;
+    color: var(--rosa-claro);
+    font-family: 'Chicle', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
