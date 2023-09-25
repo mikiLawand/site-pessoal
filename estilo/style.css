@@ -19,17 +19,24 @@
 }
 
 body{
-    background-color: white;
+    background-color: var(--branco-creme);
 }
 
 main{
     background-color: var(--branco-creme);
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 85vh; 
+    margin: 0;
 }
 
 nav{
     display: flex;
     justify-content: center;
     padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*conf dos links dentro da barra de menu*/
@@ -46,7 +53,50 @@ nav > a{
     font-weight: 400;
 }
 
-div{
+div.apresentacao{
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+}
+
+div#foto-perfil{
+    margin-left: 100px ;
+}
+
+div#nome{
+    font-family: 'Chicle', cursive;
+    color: var(--rosa-escuro);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.096);
+    font-size: 35px;
+    margin-top: 86px;
+    margin-bottom: 0px;
+    width: 400px;
+    height: 74px;
+   
+}
+
+div#texto{
+    font-family: 'Andika', sans-serif;
+    text-align: justify;
+    margin-left: 39%;
+    margin-top: -235px; /*subindo o texto mais para perto do nome*/
+    width: 600px;
+    height: 300px;
+    
+}
+
+footer{
+    background-color: var(--roxo);
+    border-radius: 10px;
+    font-family: 'Andika', sans-serif;
+    color: #F2C2D8;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--rosa-escuro);
 }
