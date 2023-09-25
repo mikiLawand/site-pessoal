@@ -45,3 +45,8 @@ nav > a{
     font-style: normal;
     font-weight: 400;
 }
+
+div{
+    display: inline-block;
+    margin-top: 20px;
+}
