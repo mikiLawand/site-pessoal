@@ -19,11 +19,18 @@
 }
 
 body{
+    background-color: var(--rosa-claro);
+}
+
+main{
     background-color: var(--branco-creme);
+    padding: 15px;
+    margin: 6px;
+    border-radius: 50px;
 }
 
 .container#menu {
-    background-color: brown;
+    background-color: transparent;
     text-align: center;
     margin: 15px 15px;
 }
@@ -36,7 +43,7 @@ body{
     font-size: x-large;
     padding: 5px 10px;
     border-radius: 100%;
-    margin: 30px;
+    margin: 50px;
 }
 
 .container#sobre-mim {
@@ -51,7 +58,18 @@ body{
 
 .container#apresentacao {
     background-color: aqua;
+    padding: 10px;
     width: 50vw;
+}
+
+#apresentacao h1 {
+    font-family: 'Chicle', cursive;
+    font-size: 3.5em;
+    color: var(--rosa-escuro);
+}
+
+#apresentacao p {
+    font-family: 'Andika', sans-serif;
 }
 
 #link-redes {
@@ -63,7 +81,9 @@ body{
   }
 
 .container#link-redes h2 {
-    background-color: #5061BF;
+    background-color: var(--rosa-claro);
+    font-family: 'Chicle', cursive;
+    color: #5061BF;
     padding: 3px 5px;
     margin: 20px;
     border-radius: 50px;
@@ -77,18 +97,19 @@ body{
   }
 
 .container#rodape {
-    background-color: crimson;
+    background-color: var(--roxo);
     padding: 10px;
-    margin: 15px 15px;
     text-align: center;
-    font-family: ;
-    color: ;
+    font-family: 'Andika', sans-serif;
+    font-size: 1.2em;
+    color: var(--azul-escuro);
 }
 
 #rodape a{
     text-decoration: none;
-    color: aliceblue;
-    font-weight: bolder;
+    color: var(--rosa-escuro);
+    font-family: 'Chicle', cursive;
+    font-weight: bold;
 }
   
 
