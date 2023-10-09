@@ -108,7 +108,8 @@ main{
 #rodape a{
     text-decoration: none;
     color: var(--rosa-escuro);
-    font-family: 'Chicle', cursive;
+    font-family: 'Andika', sans-serif;
+    font-size: 1.2em;
     font-weight: bold;
 }
   
