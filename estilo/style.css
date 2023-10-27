@@ -95,6 +95,8 @@ main{
     border-radius: 50px;
 }
 
+
+
 .container#call-to-action {
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
@@ -149,24 +151,18 @@ main{
 
 
 
-
-
-
 .container#rodape {
-    background-color: var(--roxo);
-    padding: 10px;
+    background-color: #FD85C9;
     text-align: center;
-    font-family: 'Andika', sans-serif;
-    font-size: 1.2em;
-    color: var(--azul-escuro);
+    font-family: var(--fonte-corpo);
+    padding: 5px;
 }
 
 #rodape a{
-    text-decoration: none;
-    color: var(--rosa-escuro);
-    font-family: 'Andika', sans-serif;
-    font-size: 1.2em;
-    font-weight: bold;
+   text-decoration: none;
+   font-family: var(--fonte-display);
+   vertical-align: middle; /*alinhando o texto verticalmente para que ele fique na mesma altura do restante*/
+   color: var(--rosa-claro);
 }
   
 
