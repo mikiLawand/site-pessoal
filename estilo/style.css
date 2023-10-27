@@ -24,6 +24,10 @@
     --laranja: #F28A3E;
     --verde: #B2CB7D;
 
+    /*definindo fontes*/
+    --fonte-display: 'Cristik';
+    --fonte-corpo: 'Hammersmith One', sans-serif;
+
 }
 
 body{
@@ -92,32 +96,57 @@ main{
 }
 
 .container#call-to-action {
-    display: grid;
+    font-family: 'Hammersmith One', sans-serif !important;
+    /*forçando a aplicação da fonte especificada com o !important*/
+    display: flex;
     background-color: transparent;
     padding: 16px;
-    width: 40vw;
+}
+
+#apresentacao {
+    width: 48vw;
 }
 
 #apresentacao h2 {
-    background-color: #C8E48D;
     font-family: 'Hammersmith One', sans-serif;
     margin-bottom: 17px;
     padding: 5px;
 }
 
+#apresentacao mark{
+    background-color: #C8E48D;
+}
+
 #apresentacao p {
-    font-family: 'Hammersmith One', sans-serif !important;
-    /*forçando a aplicação da fonte especificada com o !important*/
     font-size: 1.3em;
     line-height: 1.5;
 }
 
 
-.container#convite {
+#convite {
     background-color: transparent;
     padding: 16px;
-    width: 36vw;
+    width: 40vw;
 }
+
+#convite h3 {
+    font-family: 'Cristik';
+    font-size: 1.3em;
+    padding: 5px;
+    text-align: center;
+}
+
+#convite mark {
+    background-color: #F4BDDC;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+#convite img {
+    display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
+    margin: 0 auto; /*centralizando a imagem na horizontal*/
+}
+
 
 
 
