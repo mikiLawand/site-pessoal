@@ -147,7 +147,43 @@ main{
 #convite img {
     display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
     margin: 0 auto; /*centralizando a imagem na horizontal*/
+    width: 300px;
+    height: auto;
 }
+
+
+.container#beneficios {
+    font-family: 'Hammersmith One', sans-serif !important;
+    /*forçando a aplicação da fonte especificada com o !important*/
+    display: flex;
+    background-color: transparent;
+    padding: 16px;
+}
+
+#sobre {
+    width: 50vw;
+}
+
+#sobre mark{
+    background-color: var(--azul);
+}
+#sobre p {
+    font-family: var(--fonte-corpo);
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+
+#imagem-avatar {
+    width: 50vw;
+}
+
+#imagem-avatar img {
+    display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
+    margin: 0 auto; /*centralizando a imagem na horizontal*/ 
+    width: 270px;
+    height: auto;
+}
+
 
 
 
