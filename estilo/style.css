@@ -106,7 +106,7 @@ main{
 }
 
 #apresentacao {
-    width: 48vw;
+    width: 40vw;
 }
 
 #apresentacao h2 {
@@ -120,7 +120,7 @@ main{
 }
 
 #apresentacao p {
-    font-size: 1.3em;
+    font-size: 1.4em;
     line-height: 1.5;
 }
 
@@ -140,6 +140,7 @@ main{
 
 #convite mark {
     background-color: #F4BDDC;
+    color: var(--rosa-escuro);
     border-radius: 15px;
     padding: 6px;
 }
@@ -147,7 +148,7 @@ main{
 #convite img {
     display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
     margin: 0 auto; /*centralizando a imagem na horizontal*/
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
@@ -180,7 +181,7 @@ main{
 #imagem-avatar img {
     display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
     margin: 0 auto; /*centralizando a imagem na horizontal*/ 
-    width: 270px;
+    width: 300px;
     height: auto;
 }
 
