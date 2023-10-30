@@ -129,7 +129,7 @@ main{
 #convite {
     background-color: transparent;
     padding: 16px;
-    width: 40vw;
+    width: 60vw;
 }
 
 #convite h3 {
@@ -149,7 +149,7 @@ main{
 #convite img {
     display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
     margin: 0 auto; /*centralizando a imagem na horizontal*/
-    width: 280px;
+    width: 313px;
     height: auto;
 }
 
@@ -188,6 +188,55 @@ main{
 
 
 
+.container#serviços {
+    font-family: 'Hammersmith One', sans-serif !important;
+    /*forçando a aplicação da fonte especificada com o !important*/
+    display: flex;
+    background-color: transparent;
+    padding: 16px;
+}
+
+#missao {
+    width: 60vw;
+}
+
+#missao mark{
+    background-color: var(--azul);
+}
+
+#missao p {
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 13px 0;
+    /*configurando uma margem superior e inferior para ter mais espaço entre os paragrafos*/
+}
+
+#imagem-trofeu {
+    width: 33vw;
+}
+
+#imagem-trofeu img {
+    display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
+    margin: 0 auto; /*centralizando a imagem na horizontal*/ 
+    width: 230px;
+    height: auto;  
+}
+
+
+.container#pilares {
+    font-family: 'Hammersmith One', sans-serif !important;
+    /*forçando a aplicação da fonte especificada com o !important*/
+    display: block;
+    background-color: transparent;
+    padding: 16px;
+}
+
+#pilar1 {
+    background-color: var(--azul);
+    border-radius: 15px;
+    padding: 10px;
+}
 
 .container#rodape {
     background-color: #FD85C9;
