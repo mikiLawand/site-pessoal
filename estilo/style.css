@@ -227,6 +227,7 @@ main{
 .container#pilares {
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
+    font-size: 1.1em;
     display: block;
     background-color: transparent;
     padding: 16px;
