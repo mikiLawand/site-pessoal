@@ -116,7 +116,7 @@ main{
 }
 
 #apresentacao mark{
-    background-color: #C8E48D;
+    background-color: var(--azul);
 }
 
 #apresentacao p {
@@ -167,7 +167,7 @@ main{
 }
 
 #sobre mark{
-    background-color: var(--azul);
+    background-color: var(--rosa-escuro);
 }
 #sobre p {
     font-family: var(--fonte-corpo);
@@ -201,7 +201,7 @@ main{
 }
 
 #missao mark{
-    background-color: var(--azul);
+    background-color: var(--verde);
 }
 
 #missao p {
@@ -234,9 +234,37 @@ main{
 
 #pilar1 {
     background-color: var(--azul);
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 50px;
+    padding: 17px;
+    margin: 8px 0;
+    line-height: 1.3;
 }
+
+#pilar2 {
+    background-color: var(--rosa-claro);
+    border-radius: 50px;
+    padding: 17px;
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+#pilar3 {
+    background-color: var(--laranja);
+    border-radius: 50px;
+    padding: 17px;
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+#pilar4 {
+    background-color: var(--verde);
+    border-radius: 50px;
+    padding: 17px;
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+
 
 .container#rodape {
     background-color: #FD85C9;
