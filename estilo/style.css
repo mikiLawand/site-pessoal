@@ -293,10 +293,17 @@ main{
 
 #links-redes li {
     display: inline-block; /*deixando os icones lado a lado*/
-    margin-right: 30vw;
+    margin-right: 10vw;
     text-align: center;
-    font-family: var(--fonte-corpo);
+    font-family: var(--fonte-display);
     font-size: medium;
+}
+
+#links-redes li p {
+    background-color: var(--rosa-claro);
+    border-radius: 15px;
+    
+
 }
 
 #links-redes li img {
