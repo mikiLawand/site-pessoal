@@ -267,6 +267,46 @@ main{
 
 
 
+.container#redes-socias {
+    font-family: 'Hammersmith One', sans-serif !important;
+    /*forçando a aplicação da fonte especificada com o !important*/
+    display: flex;
+    background-color: transparent;
+    padding: 16px;
+}
+
+#chamada-redes p {
+    font-family: 'Hammersmith One', sans-serif !important;
+    font-size: 1.4em;
+    line-height: 1.4;
+    text-align: justify;
+    margin: 13px 0;
+    /*configurando uma margem superior e inferior para ter mais espaço entre os paragrafos*/   
+}
+
+#links-redes ul {
+    list-style-type: none; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#links-redes li {
+    display: inline-block; /*deixando os icones lado a lado*/
+    margin-right: 30vw;
+    text-align: center;
+    font-family: var(--fonte-corpo);
+    font-size: medium;
+}
+
+#links-redes li img {
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+
+
+
 .container#rodape {
     background-color: #FD85C9;
     text-align: center;
