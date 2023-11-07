@@ -49,7 +49,8 @@ h1{
     font-family: 'Cristik';
     margin: 0;
     padding: 10;
-    font-size: 32px;
+    font-size: 34px;
+    line-height: 1;
 }
 
 #menu a {
@@ -101,6 +102,7 @@ main{
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
     display: flex;
+    align-items: flex-start;
     background-color: transparent;
     padding: 16px;
 }
@@ -129,10 +131,11 @@ main{
 #convite {
     background-color: transparent;
     padding: 16px;
-    width: 60vw;
+    width: 65vw;
+    
 }
 
-#convite h3 {
+/*#convite h3 {
     font-family: 'Cristik';
     font-size: 1.3em;
     padding: 5px;
@@ -144,13 +147,14 @@ main{
     color: var(--rosa-escuro);
     border-radius: 15px;
     padding: 6px;
-}
+}*/
 
 #convite img {
-    display: block; /*definindo a imagem como um bloco para que a margem automática funcione*/
+    display: flex; /*definindo a imagem como um bloco para que a margem automática funcione*/
     margin: 0 auto; /*centralizando a imagem na horizontal*/
-    width: 313px;
+    width: 325px;
     height: auto;
+
 }
 
 
@@ -281,7 +285,8 @@ main{
     line-height: 1.4;
     text-align: justify;
     margin: 13px 0;
-    /*configurando uma margem superior e inferior para ter mais espaço entre os paragrafos*/   
+    /*configurando uma margem superior e inferior para ter mais espaço entre os paragrafos*/  
+    padding: 20px; 
 }
 
 #links-redes ul {
