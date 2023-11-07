@@ -106,7 +106,7 @@ main{
 }
 
 #apresentacao {
-    width: 35vw;
+    width: 45vw;
 }
 
 #apresentacao h2 {
@@ -287,23 +287,28 @@ main{
 #links-redes ul {
     list-style-type: none; 
     text-align: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
 
 #links-redes li {
     display: inline-block; /*deixando os icones lado a lado*/
-    margin-right: 10vw;
+    margin-right: 30px;
     text-align: center;
     font-family: var(--fonte-display);
     font-size: medium;
 }
 
+#links-redes  li a:link {
+    text-decoration: none;
+}
+
 #links-redes li p {
     background-color: var(--rosa-claro);
     border-radius: 15px;
-    
-
+    color: black;
+    padding: 3px 3px;
 }
 
 #links-redes li img {
