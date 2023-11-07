@@ -36,7 +36,6 @@ body{
 
 
 /*estilo do menu*/
-
 #menu{
     display: flex;
     justify-content: center;
@@ -88,7 +87,7 @@ h1{
 }
 
 
-/*configurações de estilo do main*/
+/*estilo do main*/
 main{
     background-color: white;
     padding: 10px;
@@ -96,8 +95,7 @@ main{
     border-radius: 50px;
 }
 
-
-
+/*estilo chamada para ação*/
 .container#call-to-action {
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
@@ -127,7 +125,6 @@ main{
     text-align: justify;
 }
 
-
 #convite {
     background-color: transparent;
     padding: 16px;
@@ -135,9 +132,10 @@ main{
     
 }
 
-/*#convite h3 {
+#convite h3 {
     font-family: 'Cristik';
-    font-size: 1.3em;
+    font-size: 1.1em;
+    margin: 0;
     padding: 5px;
     text-align: center;
 }
@@ -147,7 +145,7 @@ main{
     color: var(--rosa-escuro);
     border-radius: 15px;
     padding: 6px;
-}*/
+}
 
 #convite img {
     display: flex; /*definindo a imagem como um bloco para que a margem automática funcione*/
@@ -158,6 +156,7 @@ main{
 }
 
 
+/*estilo beneficios*/
 .container#beneficios {
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
@@ -191,7 +190,7 @@ main{
 }
 
 
-
+/*estilo serviços*/
 .container#serviços {
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
@@ -228,6 +227,7 @@ main{
 }
 
 
+/*estilo pilares*/
 .container#pilares {
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
@@ -270,7 +270,7 @@ main{
 }
 
 
-
+/*estilo redes sociais*/
 .container#redes-socias {
     font-family: 'Hammersmith One', sans-serif !important;
     /*forçando a aplicação da fonte especificada com o !important*/
@@ -323,7 +323,7 @@ main{
 }
 
 
-
+/*estilo rodape*/
 .container#rodape {
     background-color: #FD85C9;
     text-align: center;
