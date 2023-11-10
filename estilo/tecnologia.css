@@ -95,3 +95,52 @@ main{
     border-radius: 50px;
 }
 
+.container#header {
+    display: flex;
+}
+
+#imagem-icone img{
+    width: 50px;
+}
+
+#titulo-artigo h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.8em;
+    background-color: #6EBEFB;
+    padding: 3px;
+}
+
+.container#artigo {
+    display: flex;
+}
+
+#texto p {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: large;
+    width: 58vw;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+#imagem-midia img {
+    width: 290px;
+    transform: rotate(5deg); /* Inclina a imagem em 20 graus */
+    padding: 5px;
+}
+
+
+/*estilo rodape*/
+.container#rodape {
+    background-color: #FD85C9;
+    text-align: center;
+    font-family: var(--fonte-corpo);
+    padding: 5px;
+}
+
+#rodape a{
+   text-decoration: none;
+   font-family: var(--fonte-display);
+   vertical-align: middle; /*alinhando o texto verticalmente para que ele fique na mesma altura do restante*/
+   color: var(--rosa-claro);
+}
+
