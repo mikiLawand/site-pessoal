@@ -1,0 +1,146 @@
+@charset "+UTF-8";
+
+/*importando fontes do google*/
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+
+/*fonte display baixada */
+@font-face {
+    font-family: 'Cristik';
+    src: url('../fontes/cristik/Cristik.ttf') format('truetype');
+}
+
+*{
+   margin: 0px; 
+   padding: 0px;
+}
+
+/*configurações de tema e estilo*/
+:root{
+    /*definindo paleta de cores*/
+    --rosa-claro: #F4BDDC;
+    --azul: #6EBEFB;
+    --rosa-escuro: #F0739D;
+    --laranja: #F28A3E;
+    --verde: #B2CB7D;
+
+    /*definindo fontes*/
+    --fonte-display: 'Cristik';
+    --fonte-corpo: 'Hammersmith One', sans-serif;
+
+}
+
+body{
+    background-color: var(--rosa-claro);
+}
+
+
+/*estilo do menu*/
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 15px;
+}
+
+h1{
+    font-family: 'Cristik';
+    margin: 0;
+    padding: 10;
+    font-size: 34px;
+    line-height: 1;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: large;
+    padding: 3px 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#menu a:last-child {
+    margin-right: 0;
+}
+
+.tecnologia{
+    background-color: var(--azul);
+}
+
+.criatividade{
+    background-color: var(--rosa-escuro);
+}
+
+.lifestyle{
+    background-color: var(--verde);
+}
+
+.projetos{
+    background-color: var(--laranja);
+}
+
+.sobre{
+    background-color: #FD85C9;
+}
+
+
+/*estilo do main*/
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px 40px;
+    border-radius: 50px;
+}
+
+
+.container#header {
+    display: flex;
+}
+
+#imagem-icone img{
+    width: 50px;
+}
+
+#titulo-artigo h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.8em;
+    background-color: var(--rosa-escuro);
+    padding: 3px;
+}
+
+.container#artigo {
+    display: flex;
+}
+
+#texto p {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: large;
+    width: 58vw;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+#imagem-midia img {
+    width: 290px;
+    transform: rotate(5deg); /* Inclinando a imagem em 20 graus */
+    padding: 5px;
+}
+
+
+/*estilo rodape*/
+.container#rodape {
+    background-color: #FD85C9;
+    text-align: center;
+    font-family: var(--fonte-corpo);
+    padding: 5px;
+}
+
+#rodape a{
+   text-decoration: none;
+   font-family: var(--fonte-display);
+   vertical-align: middle; /*alinhando o texto verticalmente para que ele fique na mesma altura do restante*/
+   color: var(--rosa-claro);
+}
