@@ -32,6 +32,7 @@
 
 body{
     background-color: var(--rosa-claro);
+    text-align: center;
 }
 
 
@@ -112,17 +113,16 @@ main{
 }
 
 
-.container#projetos {
-    display: inline-block;
-}
 
 #janelas-projetos {
     display: inline-block;
-    width: 160px;
+    width: 170px;
     padding: 10px; /*espaço interno*/
     background-color: #F4BDDC;
     border-radius: 30px;
-    text-align: left;
+    text-align: center;
+    margin: 10px;
+    
 }
 
 #janelas-projetos img {
@@ -131,21 +131,23 @@ main{
     border-radius: 30px; /* Arredonda as bordas */
     object-fit: cover; /* Mantém a proporção da imagem */
     width: 160px;
+    margin-bottom: 5px;
 }
 
 #janelas-projetos h1{
     font-family: var(--fonte-corpo);
-    font-size: 1.4em;
+    font-size: medium;
     background-color: #F0739D;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 5px;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
-#janelasprojetos p {
-    font-family: var(--fonte-corpo) !important;
-    font-size: medium;
-    text-align: center;
+#janelas-projetos p {
+    font-family: var(--fonte-corpo);
+    font-size: small;
+    text-align: left;
 }
 
 
