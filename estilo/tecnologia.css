@@ -124,7 +124,7 @@ main{
 
 #imagem-midia img {
     width: 290px;
-    transform: rotate(5deg); /* Inclina a imagem em 20 graus */
+    transform: rotate(5deg); /* Inclinando a imagem em 20 graus */
     padding: 5px;
 }
 
