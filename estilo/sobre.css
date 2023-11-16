@@ -141,6 +141,7 @@ main{
     display: flex;
     align-items: center; /*alinhando a img e o p na mesma altura*/
     text-align: left;
+    margin-bottom: 25px;
 
 }
 
