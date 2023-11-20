@@ -52,6 +52,14 @@ h1{
     line-height: 1;
 }
 
+#hamburguer {
+    display: none; /*escondendo o menu hamburguer das telas de computador*/
+}
+
+nav a {
+    display: inline-block;
+}
+
 #menu a {
     text-decoration: none;
     color: black;
@@ -337,5 +345,15 @@ main{
    vertical-align: middle; /*alinhando o texto verticalmente para que ele fique na mesma altura do restante*/
    color: var(--rosa-claro);
 }
-  
 
+/*media query tablet*/
+@media (max-width: 990px) {
+   
+    #hamburguer {
+    display: block;
+   }
+
+   nav a {
+    display: none;
+   }
+}
