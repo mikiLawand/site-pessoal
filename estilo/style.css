@@ -351,6 +351,9 @@ main{
    
     #hamburguer {
     display: block;
+    font-size: 30px; /* Ajuste o tamanho do ícone */
+    color: var(--rosa-escuro); 
+    cursor: pointer;
    }
 
    nav a {
