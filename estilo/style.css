@@ -400,3 +400,75 @@ main{
         width: 30px;
    }
 }
+
+/*media query celular*/
+@media (max-width:425px) {
+    
+    #menu a{
+        font-size: small;
+    }
+
+    #call-to-action {
+        flex-direction: column;
+    }
+
+    #apresentacao {
+        width: 100%;
+    }
+
+    #apresentacao h2 {
+        font-size: 1.2em;
+    }
+
+    #apresentacao p {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    #convite {
+        width: 100%;
+    }
+
+    #convite img {
+        width: 200px;
+       
+    }
+
+    #beneficios {
+        flex-direction: column;
+    }
+
+    #sobre {
+        width: 100%;
+    }
+
+    #sobre p {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    #serviços {
+        flex-direction: column;
+    }
+
+    #missao p {
+        font-size: 1em;
+    }
+
+    #imagem-trofeu {
+        width: 100%; /*para centralizar a imagem*/
+    }
+
+    #imagem-trofeu img {
+        width: 100px;
+    }
+
+    #chamada-redes p {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    #rodape p {
+        font-size: 0.80em;
+    }
+}
