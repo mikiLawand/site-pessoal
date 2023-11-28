@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/icon-livros.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagens/icon-livros.png" type="image/x-icon">
     <title>Projeto</title>
-    <link rel="stylesheet" href="estilo/projeto-exemplo.css">
+    <link rel="stylesheet" href="../estilo/projeto-exemplo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header> <!--cabeçalho-->
@@ -13,6 +14,10 @@
             <a href="../index.html">
                 <h1>White <br> Rabbit</h1>
             </a>
+            <span
+                class="material-symbols-rounded" id="hamburguer" onclick="toggleMenu()">
+                menu
+            </span>
             <nav>
                 <a class="tecnologia" href="#">Tecnologia</a> 
                 <!--criando uma classe para cada link do menu,para deixar elas de cores diferentes-->
@@ -26,7 +31,7 @@
     <main>
         <div class="container" id="descrição-projeto">
             <div class="container" id="projeto-imagem" >
-                <img src="imagens/projeto-exemplo-img.png" alt="">
+                <img src="../imagens/projeto-exemplo-img.png" alt="">
             </div>
             <div class="container" id="projeto-texto">
                 <h1>Book Beacon</h1> <br>
@@ -38,5 +43,19 @@
     <div class="container" id="rodape">
         <footer><p>Desenvolvido com carinho por <a href="https://github.com/mikiLawand" target="_blank" rel="external">Michelle Lawand</a> &#x1F497</p></footer>
     </div>
+
+    <script>
+        /*alternando a visibilidade dos links de navegação*/
+        function toggleMenu() {
+        var links = document.querySelectorAll("nav a");
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].style.display === "block") {
+                links[i].style.display = "none";
+            } else {
+                links[i].style.display = "block";
+            }
+        }
+    }  
+    </script>
     </body>
     </html>

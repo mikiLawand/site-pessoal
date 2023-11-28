@@ -36,6 +36,22 @@ body{
 }
 
 
+h1{
+    font-family: 'Cristik';
+    margin: 0;
+    padding: 10;
+    font-size: 34px;
+    line-height: 1;
+}
+
+#hamburguer {
+    display: none; /*escondendo o menu hamburguer das telas de computador*/
+}
+
+nav a {
+    display: inline-block;
+}
+
 /*estilo do menu*/
 #menu{
     display: flex;
@@ -43,14 +59,6 @@ body{
     align-items: center;
     background-color: transparent;
     padding: 15px;
-}
-
-h1{
-    font-family: 'Cristik';
-    margin: 0;
-    padding: 10;
-    font-size: 34px;
-    line-height: 1;
 }
 
 #menu a {
@@ -138,7 +146,7 @@ main{
     font-family: var(--fonte-corpo);
     font-size: 1.2em;
     padding: 15px;
-    margin: 10px 5px;
+    margin: 5px 5px;
 }
 
 
@@ -155,4 +163,28 @@ main{
    font-family: var(--fonte-display);
    vertical-align: middle; /*alinhando o texto verticalmente para que ele fique na mesma altura do restante*/
    color: var(--rosa-claro);
+}
+
+@media (max-width:990px) {
+    
+    /*menu hamburguer*/
+    #hamburguer {
+        display: block;
+        font-size: 30px; /* Ajuste o tamanho do ícone */
+        color: var(--rosa-escuro); 
+        cursor: pointer;
+    }
+    
+    nav a {
+        display: none;
+    }
+
+    #descrição-projeto {
+        flex-direction: column;
+        /*organizando elementos filhos em uma coluna*/
+    }
+
+    
+
+    
 }
