@@ -171,6 +171,10 @@ main{
         display: inline-block;
     }
 
+    #titulo-artigo {
+        margin-right: 15px;
+    }
+
     #texto p {
         width: 80vw;
     }
