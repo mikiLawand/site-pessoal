@@ -52,6 +52,14 @@ h1{
     line-height: 1;
 }
 
+#hamburguer {
+    display: none; /*escondendo o menu hamburguer das telas de computador*/
+}
+
+nav a {
+    display: inline-block;
+}
+
 #menu a {
     text-decoration: none;
     color: black;
@@ -143,4 +151,34 @@ main{
    font-family: var(--fonte-display);
    vertical-align: middle; /*alinhando o texto verticalmente para que ele fique na mesma altura do restante*/
    color: var(--rosa-claro);
+}
+
+@media (max-width: 990px) {
+    
+        /*menu hamburguer*/
+    #hamburguer {
+        display: block;
+        font-size: 30px; /* Ajuste o tamanho do ícone */
+        color: var(--rosa-escuro); 
+        cursor: pointer;
+    }
+    
+    nav a {
+        display: none;
+    }
+
+    .container#artigo {
+        display: inline-block;
+    }
+
+    #texto p {
+        width: 80vw;
+    }
+
+    #imagem-midia img {
+        width: 230px; /*diminuindo o tamanho da img*/
+        /*centralizando a img*/
+        display: block;
+        margin: 15px auto;
+    }
 }

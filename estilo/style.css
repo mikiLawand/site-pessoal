@@ -359,4 +359,44 @@ main{
    nav a {
     display: none;
    }
+
+   #apresentacao h2 {
+        font-size: 1.3em;
+   }
+
+   #apresentacao p {
+    font-size: 1.2em;
+   }
+
+   #convite img {
+        width: 250px;
+   }
+
+   #imagem-avatar img {
+        width: 180px;
+   }
+
+   #sobre p {
+    font-size: 1.3em;
+   }
+
+   #missao p {
+        font-size: 1.2em;
+   }
+
+   #imagem-trofeu img {
+        width: 150px;
+   }
+
+   #chamada-redes p {
+        font-size: 1.2em;
+   }
+
+   #links-redes li {
+        font-size: small;
+   }
+
+   #links-redes li img {
+        width: 30px;
+   }
 }
