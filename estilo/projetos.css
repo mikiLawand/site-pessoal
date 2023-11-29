@@ -188,3 +188,23 @@ main{
         display: none;
     }
 }
+
+@media (max-width:425px) {
+    
+    #menu a{
+        font-size: small;
+    }
+
+    #imagem-icone img {
+        width: 40px;
+    }
+
+    #titulo-artigo h1 {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    #rodape {
+        font-size: 0.70em;
+    }
+}

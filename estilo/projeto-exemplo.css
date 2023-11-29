@@ -182,9 +182,41 @@ main{
     #descrição-projeto {
         flex-direction: column;
         /*organizando elementos filhos em uma coluna*/
+    } 
+}
+
+@media (max-width:425px) {
+    
+    #menu a{
+        font-size: small;
     }
 
-    
+    .container#descrição-projeto {
+        flex-direction: column;
+    }
 
+    #projeto-imagem img{
+        width: 70vw;
+    }
+
+    .container#projeto-texto {
+        width: 100%;
+    }
+
+    .container#projeto-texto h1 {
+        font-size: 1.5em;
+    }
+
+    #projeto-texto h2 {
+        font-size: 1.1em;
+    }
     
+    #projeto-texto p {
+        font-size: 0.90em;
+        text-align: justify;
+    }
+
+    #rodape {
+        font-size: 0.70em;
+    }
 }

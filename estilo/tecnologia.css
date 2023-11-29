@@ -191,6 +191,22 @@ main{
 
     #titulo-artigo h1 {
         font-size: 1em;
-        padding: 3px;
+    }
+
+    #artigo {
+        width: 100%;
+    }
+
+    #texto p {
+        font-size: 0.90em;
+        width: 100%;
+    }
+
+    #imagem-midia img{
+        width: 150px;
+    }
+
+    #rodape {
+        font-size: 0.70em;
     }
 }

@@ -184,3 +184,31 @@ main{
         margin: 15px auto;
     }
 }
+
+@media (max-width:425px) {
+    
+    #menu a{
+        font-size: small;
+    }
+
+    #titulo-artigo h1 {
+        font-size: 1em;
+    }
+
+    #artigo {
+        width: 100%;
+    }
+
+    #texto p {
+        font-size: 0.90em;
+        width: 100%;
+    }
+
+    #imagem-midia img{
+        width: 150px;
+    }
+
+    #rodape {
+        font-size: 0.70em;
+    }
+}
