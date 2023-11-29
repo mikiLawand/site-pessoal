@@ -189,7 +189,7 @@ main{
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:428px) {
     
     #menu a{
         font-size: small;
@@ -202,6 +202,7 @@ main{
     #titulo-artigo h1 {
         font-size: 1em;
         text-align: left;
+        margin-right: 20px;
     }
 
     #rodape {

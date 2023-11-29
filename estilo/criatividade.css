@@ -187,10 +187,14 @@ main{
     }
 }
 
-@media (max-width:426px) {
+@media (max-width:428px) {
     
     #menu a{
         font-size: small;
+    }
+
+    #imagem-icone img {
+        width: 40px;
     }
 
     #titulo-artigo h1 {

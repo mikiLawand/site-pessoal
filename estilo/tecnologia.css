@@ -183,7 +183,7 @@ main{
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:428px) {
     
     #menu a{
         font-size: small;
@@ -191,6 +191,7 @@ main{
 
     #titulo-artigo h1 {
         font-size: 1em;
+        margin-right: 20px;
     }
 
     #artigo {
