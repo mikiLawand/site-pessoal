@@ -182,3 +182,15 @@ main{
         margin: 15px auto;
     }
 }
+
+@media (max-width:425px) {
+    
+    #menu a{
+        font-size: small;
+    }
+
+    #titulo-artigo h1 {
+        font-size: 1em;
+        padding: 3px;
+    }
+}
